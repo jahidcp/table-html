@@ -1,0 +1,50 @@
+html {
+    background-color: #333;
+    color: yellow;
+}
+
+.close {
+    border: 3px solid red;
+}
+
+.header01 {
+    text-align: center;
+}
+
+.mid-header {
+    border: 2px solid chocolate;
+}
+
+mark {
+    background-color: aqua;
+}
+
+caption, table, thead, tbody, tfoot, th, tr, td {
+    border: 2px solid green;
+    padding: 0.5rem;
+    border-collapse: collapse;
+}
+
+.tfoot {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 7px;
+    padding: 0.5rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bolder;
+}
+
+nav li:hover {
+    background-color: black;
+}
